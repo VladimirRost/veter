@@ -1,0 +1,217 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+/*Отступы слева и сверху для логотипа*/
+.image_logo {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/*Отступы убраны для логотипов компаний*/
+.image_logo_comp {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.to-flex {
+    display: flex;
+    border: 1px solid white;
+
+    /*align-items:center;
+    justify-content:left; */
+}
+
+.not-bulit {
+    list-style: none;
+
+}
+
+.padding-r li {
+
+    border-right: 10px solid transparent;
+    float: left;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400px;
+}
+
+
+
+/*Убирам подчёркивания в ссылка*/
+a {
+    text-decoration: none;
+}
+
+/* Восстанавливаем подчёркивания локально*/
+.decor_text {
+    text-decoration-line: underline;
+}
+
+/*Текст по центру*/
+.text-center {
+    text-align: center;
+}
+
+/*Текст слева*/
+.text-left {
+    text-align: left;
+    
+}
+
+
+/*Горизонтальный блок на весь экран*/
+.main-block {
+    display: flex;
+    text-align: center;
+    margin: 0px;
+    padding: 1px;
+    /*border: 1px solid white;*/
+}
+
+/*Создаём слева  блок*/
+.left-box {
+    margin: 1;
+    padding: 1;
+    width: 25%;
+    text-align: left;
+}
+
+/*Создаём основной по центру блок*/
+.center-box {
+    width: 75%;
+    margin: 1;
+    padding: 1;
+
+}
+
+/*Создаём блок с права*/
+.right-box {
+    width: 15%;
+    margin: 1;
+    padding: 1;
+
+    text-align: right;
+}
+
+/*блок по центру*/
+.center-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:
+        /*#293241;*/
+        #414B57;
+
+}
+
+footer ul {
+    padding-left: 0px;
+}
+
+footer nav {
+    width: 20%;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+footer section {
+    display: flex;
+    width: 20%;
+    justify-content: right;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    width: 193px;
+    height: 148px;
+}
+footer img{
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7)
+}
+footer a:hover{
+    color:#ED7D31;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.breadcrambs-container{
+    display: block;
+    padding: -10px;
+    margin: -10px;
+}
+.breadcrambs {
+    display: flex;
+    flex-direction:row;
+    font-size: smaller;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+
+}
+.breadcrambs-current {
+color:rgb(114, 114, 114);
+margin-left: 25px;
+
+}
+.breadcrambs-tuta{
+
+    font-size: small;
+    color: white;
+    margin-right: 10px;
+    margin-left: -15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.corner-textbox-1 .big-heading{
+    display: flex;
+    /*outline: #ED7D31 solid 1px;*/
+    width: 100%;
+    text-transform: uppercase;
+    margin: 0px 0px;
+    align-items:center;
+}
+.big-heading::before,
+.big-heading::after{
+    content:"";
+    width: 50px;
+    height: 1px;
+    background:white;
+    flex-grow: 1; /*боковые палочки растите на всё свободное место*/
+    flex-shrink: 0;  /*боковые палочки не уменьшайтесь*/
+}
+.big-heading::before{
+    margin-right: 25px;  /*оступы от заголовка*/
+}
+.big-heading::after{
+    margin-left: 25px;   /*оступы от заголовка*/
+}
