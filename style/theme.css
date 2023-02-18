@@ -1,0 +1,61 @@
+.light-theme-site {
+    color: black;
+    background-color:#D5D5D5;
+}
+
+.light-theme-site a {
+  color:#293241;
+  background-color:#D5D5D5;
+}
+
+ .theme-button {
+    color: black;
+    background-color:#D5D5D5;
+    border: 1px solid black;
+  }
+  /*
+  .light-theme-site .theme-button::before {
+    background-image:url("icons/moon_to_night.svg");
+  }
+  .light-theme-site .theme-button:focus,
+  .light-theme-site .theme-button:hover {
+    color: #ffffff;
+    background-color:#303946;
+  }
+
+
+*/
+
+
+
+
+
+  .dark-theme-site {
+    color: #D5D5D5;
+    background-color: #293241;
+}
+.dark-theme-site a{
+  color:#D5D5D5;
+}
+
+.button-classic {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #FFD100 0%, #ED7D31 100%);
+  background-size: 100% auto;
+  text-align: center;
+  vertical-align: middle;
+  transition: .5s;
+}
+
+.button-classic:hover {
+  color: white;
+  background-image: linear-gradient(to left, #FFD100 0%, #ED7D31 100%);
+}
+
+.button-classic:active {
+  color: #293241;
+  background-image: linear-gradient(to left, #FFD100 0%, #ED7D31 100%);
+}

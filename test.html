@@ -1,13 +1,17 @@
 <!DOCTYPE html>
+
 <html lang="ru">
+
 
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Главная</title>
+	<title>ООО РОСТЪ</title>
+
 
 	<link href="https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="style/normalize.css">
 	<link rel="stylesheet" href="style/style.css">
 	<link rel="stylesheet" href="style/slider/slider.css">
@@ -17,23 +21,27 @@
 	<link rel="stylesheet" href="style/open_image.css">
 
 
-
 </head>
 
 <body class="page dark-theme-site">
+
+
 	<header class="header">
 		<!--                                       Верхушка сайта                             -->
 		<a href="index.html">
-			<img class="image_logo" src="images/Logo.png" width="160" height="52" alt="Logotype of Company">
+			<img class="image_logo_comp" src="images/Logo.png" width="160" height="52" alt="Logotype of Company">
 		</a>
 		<nav class="main-navigation">
 			<ul class="not-bulit">
-				<li><a href="index.html">Главная</a></li>
-				<li class="menu_active_button"><a href="news.html">Новости</a></li>
-				<li><a href="catalog.html">Каталог</a></li>
-				<li><a href="crm.html">CRM</a></li>
-				<li><a href="calc.html">Плюшки</a></li>
-				<li><a href="use.html">Наши проекты</a></li>
+				<li class="menu_active_button"><a href="index.html">Главная</a></li>
+				<!--                                        Заккоментированный пункты верхнего меню
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="crm.html">CRM</a></li>
+                <li><a href="calc.html">Плюшки</a></li>
+                <li><a href="use.html">Наши проекты</a></li>
+                -->
+
 				<li><a href="Visualization.html">Визуализация</a></li>
 				<li><a href="contact.html">Контакты</a></li>
 			</ul>
@@ -45,56 +53,51 @@
 		</ul>
 	</header>
 
-	<!--<body>-->
+	<div class="main-block center-gallery">
 
+		<div class="carousel-3d " data-gap="30">
+			<figure>
+				<div><a href="#any"><img class="open_image" src="images/slider/vdm.jpg" alt="" /></a></div>
+				<div><a href="#any"><img src="images/slider/WorldClass.jpg" alt="" /></a></div>
+				<!--WorldClass-->
+				<div><a href="#any"><img src="images/slider/Albatros.jpg" alt="" /></a></div>
+				<div><a href="#any"><img src="images/slider/Atlant.jpg" alt="" /></a></div>
+				<div><a href="#any"><img src="images/slider/Bassein.jpg" alt="" /></a></div>
+				<div><a href="#any"><img src="images/slider/DI_podlesnoe.jpg" alt="" /></a></div>
+				<div><a href="#any"><img src="images/slider/ORC_Saratov.jpg" alt="" /></a></div>
+				<div><a href="#any"><img src="images/slider/TorgoviyCentr.jpg" alt="" /></a></div>
+				<div><a href="#any"><img src="images/slider/Volsk_MVD.jpg" alt="" /></a></div>
+				<div><a href="#any"><img src="images/slider/Zavod.jpg" alt="" /></a></div>
 
-
-	<!--Хлебные крошки-->
-	<div class="breadcrambs-container">
-
-		<ul class="breadcrambs">
-			<li class="breadcrambs-tuta not-bulit">Вы здесь :</li>
-			<li class="not-bulit"><a href="index.html">Главная</li></a>
-			<li class="breadcrambs-current">Новости</li>
-		</ul>
-	</div>
-	<!--Хлебные крошки Конец-->
-
-
-	<div class="main-block">
-		<!--                                                          ОСНОВНОЕ ПОЛЕ                         -->
-		<div class="corner-box-1 center-box " style="width: 100%;">
-			<div class="corner-textbox-1">
-				<!------------------------------------------------------------------------------------------------------------------->
-				<section>
-					<h2 class="big-heading">Новости</h2>
-					<p class="text-center"> Собственно сами Новости</p>
-					</p>
-				</section>
-				<!------------------------------------------------------------------------------------------------------------------->
-			</div>
+			</figure>
+			<nav>
+				<button class="nav prev button-classic">Назад</button>
+				<button class="nav next button-classic">Вперед</button>
+			</nav>
 		</div>
-		<!--                                                          ОСНОВНОЕ ПОЛЕ                         -->
 
 	</div>
 
+	<!--            Галерея          -------------------------------------------------------------------  -->
 
 
 
-
+	<script src="js/script.js"></script>
+	<script src="js/slider/slider.js"></script>
 </body>
-
-
-
 <footer>
 	<nav>
 		<ul class="not-bulit">
-			<li><a href="news.html">Новости</a></li>
-			<li><a href="catalog.html">Каталог</a></li>
-			<li><a href="crm.html">CRM</a></li>
-			<li><a href="calc.html">Плюшки</a></li>
-			<li><a href="use.html">Наши проекты</a></li>
-			<li><a href="contact.html">Контакты</a></li>
+
+
+			<!--
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="crm.html">CRM</a></li>
+                <li><a href="calc.html">Плюшки</a></li>
+                <li><a href="use.html">Наши проекты</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+                -->
 		</ul>
 	</nav>
 	<div>
@@ -156,17 +159,28 @@
 	</button>
 </section>
 <!--                                                   Окно Картинки Конец-->
+<!--                                  Тест модального окна   на весь экран                       -->
+<!--
+    <div class="css-modal-details">
+        <details>
+            <summary>Название кнопки</summary>
+            <div class="cmc">
+                <div class="cmt">
+                    <p>Текст в модальном окне С картинкой</p>
+                </div>
+            </div>
+        </details>
+    </div>
+    -->
+<!--                                  Тест модального окна   окончание                       -->
 
 
 
 
 
 
-<script src="js/script.js"></script>
-<script src="js/slider/slider.js"></script>
-</body>
 
 
 
-<!--    00:43:59   Оформление контента              Практика             -->
-<!--Занимаюсь футтером  И всплывающими окнами-->
+<!--    00:57:41   Оформление контента              Практика             -->
+<!--сделал списки и ценник на IT услуги на странице Визуализация-->

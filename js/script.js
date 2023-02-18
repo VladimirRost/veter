@@ -5,18 +5,18 @@ document.querySelector('.page').classList.add('dark-theme-site');
 */
 
 let test = document.querySelector(".button-classic-test");
-test.onclick=function () {
-  alert("Нажали на кнопочку");
-  console.log("Кнопка нажата");
+test.onclick = function () {
+	alert("Нажали на кнопочку");
+	console.log("Кнопка нажата");
 };
 
 /* Переключатель темы */
 let page = document.querySelector('.page');
-let themeButton = document.querySelector('.theme-button');
+let themeButton = document.querySelector('.theme-buеton');
 
-themeButton.onclick = function() {
-  page.classList.toggle('dark-theme-site');
-  page.classList.toggle('light-theme-site');
+themeButton.onclick = function () {
+	page.classList.toggle('dark-theme-site');
+	page.classList.toggle('light-theme-site');
 };
 
 
