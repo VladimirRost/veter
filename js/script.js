@@ -14,7 +14,7 @@ test.onclick=function () {
 let page = document.querySelector('.page');
 let themeButton = document.querySelector('.theme-button');
 
-themeButton.onclick = function() {
+themeButton.onclick = function(){
   page.classList.toggle('dark-theme-site');
   page.classList.toggle('light-theme-site');
 };
